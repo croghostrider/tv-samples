@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.presentation.screens.movies
+package com.vinko.viptv.presentation.screens.movies
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.runtime.Composable

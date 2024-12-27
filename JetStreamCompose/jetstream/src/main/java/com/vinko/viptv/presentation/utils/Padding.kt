@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.presentation.utils
+package com.vinko.viptv.presentation.utils
 
 import androidx.compose.runtime.Immutable
 import androidx.compose.ui.unit.Dp

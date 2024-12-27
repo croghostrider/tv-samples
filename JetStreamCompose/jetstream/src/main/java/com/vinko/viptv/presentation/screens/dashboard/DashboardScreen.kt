@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.presentation.screens.dashboard
+package com.vinko.viptv.presentation.screens.dashboard
 
 import androidx.compose.animation.core.animateDpAsState
 import androidx.compose.animation.core.animateIntAsState
@@ -56,16 +56,16 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.google.jetstream.data.entities.Movie
-import com.google.jetstream.presentation.screens.Screens
-import com.google.jetstream.presentation.screens.categories.CategoriesScreen
-import com.google.jetstream.presentation.screens.favourites.FavouritesScreen
-import com.google.jetstream.presentation.screens.home.HomeScreen
-import com.google.jetstream.presentation.screens.movies.MoviesScreen
-import com.google.jetstream.presentation.screens.profile.ProfileScreen
-import com.google.jetstream.presentation.screens.search.SearchScreen
-import com.google.jetstream.presentation.screens.shows.ShowsScreen
-import com.google.jetstream.presentation.utils.Padding
+import com.vinko.viptv.data.entities.Movie
+import com.vinko.viptv.presentation.screens.Screens
+import com.vinko.viptv.presentation.screens.categories.CategoriesScreen
+import com.vinko.viptv.presentation.screens.favourites.FavouritesScreen
+import com.vinko.viptv.presentation.screens.home.HomeScreen
+import com.vinko.viptv.presentation.screens.movies.MoviesScreen
+import com.vinko.viptv.presentation.screens.profile.ProfileScreen
+import com.vinko.viptv.presentation.screens.search.SearchScreen
+import com.vinko.viptv.presentation.screens.shows.ShowsScreen
+import com.vinko.viptv.presentation.utils.Padding
 
 val ParentPadding = PaddingValues(vertical = 16.dp, horizontal = 58.dp)
 

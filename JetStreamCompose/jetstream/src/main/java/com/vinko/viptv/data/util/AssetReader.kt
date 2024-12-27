@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.data.util
+package com.vinko.viptv.data.util
 
 import android.content.Context
 import dagger.hilt.android.qualifiers.ApplicationContext

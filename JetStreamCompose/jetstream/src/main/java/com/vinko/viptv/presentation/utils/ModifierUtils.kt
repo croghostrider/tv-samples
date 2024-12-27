@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.presentation.utils
+package com.vinko.viptv.presentation.utils
 
 import android.view.KeyEvent
 import androidx.compose.foundation.layout.fillMaxSize

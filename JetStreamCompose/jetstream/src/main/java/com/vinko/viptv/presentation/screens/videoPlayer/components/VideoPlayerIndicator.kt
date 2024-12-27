@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.presentation.screens.videoPlayer.components
+package com.vinko.viptv.presentation.screens.videoPlayer.components
 
 import androidx.compose.animation.core.animateDpAsState
 import androidx.compose.foundation.Canvas
@@ -36,8 +36,8 @@ import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.unit.dp
 import androidx.tv.material3.MaterialTheme
-import com.google.jetstream.presentation.utils.handleDPadKeyEvents
-import com.google.jetstream.presentation.utils.ifElse
+import com.vinko.viptv.presentation.utils.handleDPadKeyEvents
+import com.vinko.viptv.presentation.utils.ifElse
 
 @Composable
 fun RowScope.VideoPlayerControllerIndicator(

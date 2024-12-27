@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.presentation.screens.favourites
+package com.vinko.viptv.presentation.screens.favourites
 
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -23,7 +23,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.google.jetstream.presentation.utils.createInitialFocusRestorerModifiers
+import com.vinko.viptv.presentation.utils.createInitialFocusRestorerModifiers
 
 @Composable
 fun MovieFilterChipRow(

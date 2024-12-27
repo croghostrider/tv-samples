@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.presentation.screens.categories
+package com.vinko.viptv.presentation.screens.categories
 
 import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.layout.Column
@@ -37,15 +37,15 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.tv.material3.MaterialTheme
 import androidx.tv.material3.Text
-import com.google.jetstream.data.entities.Movie
-import com.google.jetstream.data.entities.MovieCategoryDetails
-import com.google.jetstream.presentation.common.Error
-import com.google.jetstream.presentation.common.Loading
-import com.google.jetstream.presentation.common.MovieCard
-import com.google.jetstream.presentation.common.PosterImage
-import com.google.jetstream.presentation.screens.dashboard.rememberChildPadding
-import com.google.jetstream.presentation.theme.JetStreamBottomListPadding
-import com.google.jetstream.presentation.utils.focusOnInitialVisibility
+import com.vinko.viptv.data.entities.Movie
+import com.vinko.viptv.data.entities.MovieCategoryDetails
+import com.vinko.viptv.presentation.common.Error
+import com.vinko.viptv.presentation.common.Loading
+import com.vinko.viptv.presentation.common.MovieCard
+import com.vinko.viptv.presentation.common.PosterImage
+import com.vinko.viptv.presentation.screens.dashboard.rememberChildPadding
+import com.vinko.viptv.presentation.theme.JetStreamBottomListPadding
+import com.vinko.viptv.presentation.utils.focusOnInitialVisibility
 
 object CategoryMovieListScreen {
     const val CategoryIdBundleKey = "categoryId"

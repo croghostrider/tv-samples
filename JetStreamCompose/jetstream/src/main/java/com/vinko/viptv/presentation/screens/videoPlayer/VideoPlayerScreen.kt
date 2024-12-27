@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.presentation.screens.videoPlayer
+package com.vinko.viptv.presentation.screens.videoPlayer
 
 import android.content.Context
 import android.net.Uri
@@ -51,24 +51,24 @@ import androidx.media3.datasource.DefaultDataSource
 import androidx.media3.exoplayer.ExoPlayer
 import androidx.media3.exoplayer.source.ProgressiveMediaSource
 import androidx.media3.ui.PlayerView
-import com.google.jetstream.data.entities.MovieDetails
-import com.google.jetstream.data.util.StringConstants
-import com.google.jetstream.presentation.common.Error
-import com.google.jetstream.presentation.common.Loading
-import com.google.jetstream.presentation.screens.videoPlayer.components.VideoPlayerControlsIcon
-import com.google.jetstream.presentation.screens.videoPlayer.components.VideoPlayerMainFrame
-import com.google.jetstream.presentation.screens.videoPlayer.components.VideoPlayerMediaTitle
-import com.google.jetstream.presentation.screens.videoPlayer.components.VideoPlayerMediaTitleType
-import com.google.jetstream.presentation.screens.videoPlayer.components.VideoPlayerOverlay
-import com.google.jetstream.presentation.screens.videoPlayer.components.VideoPlayerPulse
-import com.google.jetstream.presentation.screens.videoPlayer.components.VideoPlayerPulse.Type.BACK
-import com.google.jetstream.presentation.screens.videoPlayer.components.VideoPlayerPulse.Type.FORWARD
-import com.google.jetstream.presentation.screens.videoPlayer.components.VideoPlayerPulseState
-import com.google.jetstream.presentation.screens.videoPlayer.components.VideoPlayerSeeker
-import com.google.jetstream.presentation.screens.videoPlayer.components.VideoPlayerState
-import com.google.jetstream.presentation.screens.videoPlayer.components.rememberVideoPlayerPulseState
-import com.google.jetstream.presentation.screens.videoPlayer.components.rememberVideoPlayerState
-import com.google.jetstream.presentation.utils.handleDPadKeyEvents
+import com.vinko.viptv.data.entities.MovieDetails
+import com.vinko.viptv.data.util.StringConstants
+import com.vinko.viptv.presentation.common.Error
+import com.vinko.viptv.presentation.common.Loading
+import com.vinko.viptv.presentation.screens.videoPlayer.components.VideoPlayerControlsIcon
+import com.vinko.viptv.presentation.screens.videoPlayer.components.VideoPlayerMainFrame
+import com.vinko.viptv.presentation.screens.videoPlayer.components.VideoPlayerMediaTitle
+import com.vinko.viptv.presentation.screens.videoPlayer.components.VideoPlayerMediaTitleType
+import com.vinko.viptv.presentation.screens.videoPlayer.components.VideoPlayerOverlay
+import com.vinko.viptv.presentation.screens.videoPlayer.components.VideoPlayerPulse
+import com.vinko.viptv.presentation.screens.videoPlayer.components.VideoPlayerPulse.Type.BACK
+import com.vinko.viptv.presentation.screens.videoPlayer.components.VideoPlayerPulse.Type.FORWARD
+import com.vinko.viptv.presentation.screens.videoPlayer.components.VideoPlayerPulseState
+import com.vinko.viptv.presentation.screens.videoPlayer.components.VideoPlayerSeeker
+import com.vinko.viptv.presentation.screens.videoPlayer.components.VideoPlayerState
+import com.vinko.viptv.presentation.screens.videoPlayer.components.rememberVideoPlayerPulseState
+import com.vinko.viptv.presentation.screens.videoPlayer.components.rememberVideoPlayerState
+import com.vinko.viptv.presentation.utils.handleDPadKeyEvents
 import kotlin.time.Duration.Companion.milliseconds
 import kotlinx.coroutines.delay
 

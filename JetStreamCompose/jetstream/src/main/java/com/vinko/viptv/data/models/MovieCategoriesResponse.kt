@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.data.models
+package com.vinko.viptv.data.models
 
 import kotlinx.serialization.Serializable
 

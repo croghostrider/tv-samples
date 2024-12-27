@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.presentation.common
+package com.vinko.viptv.presentation.common
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.layout.BoxScope
@@ -25,8 +25,8 @@ import androidx.tv.material3.ClickableSurfaceDefaults
 import androidx.tv.material3.MaterialTheme
 import androidx.tv.material3.StandardCardContainer
 import androidx.tv.material3.Surface
-import com.google.jetstream.presentation.theme.JetStreamBorderWidth
-import com.google.jetstream.presentation.theme.JetStreamCardShape
+import com.vinko.viptv.presentation.theme.JetStreamBorderWidth
+import com.vinko.viptv.presentation.theme.JetStreamCardShape
 
 @Composable
 fun MovieCard(

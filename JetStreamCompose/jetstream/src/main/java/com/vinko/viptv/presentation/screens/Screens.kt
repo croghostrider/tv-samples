@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.presentation.screens
+package com.vinko.viptv.presentation.screens
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.ui.graphics.vector.ImageVector
-import com.google.jetstream.presentation.screens.categories.CategoryMovieListScreen
-import com.google.jetstream.presentation.screens.movies.MovieDetailsScreen
-import com.google.jetstream.presentation.screens.videoPlayer.VideoPlayerScreen
+import com.vinko.viptv.presentation.screens.categories.CategoryMovieListScreen
+import com.vinko.viptv.presentation.screens.movies.MovieDetailsScreen
+import com.vinko.viptv.presentation.screens.videoPlayer.VideoPlayerScreen
 
 enum class Screens(
     private val args: List<String>? = null,

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.presentation.screens.profile
+package com.vinko.viptv.presentation.screens.profile
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding
@@ -28,8 +28,8 @@ import androidx.tv.material3.Switch
 import androidx.tv.material3.SwitchDefaults
 import androidx.tv.material3.Text
 import androidx.tv.material3.surfaceColorAtElevation
-import com.google.jetstream.data.util.StringConstants
-import com.google.jetstream.presentation.theme.JetStreamCardShape
+import com.vinko.viptv.data.util.StringConstants
+import com.vinko.viptv.presentation.theme.JetStreamCardShape
 
 @Composable
 fun SubtitlesSection(

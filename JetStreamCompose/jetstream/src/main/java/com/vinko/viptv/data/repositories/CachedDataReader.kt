@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.data.repositories
+package com.vinko.viptv.data.repositories
 
-import com.google.jetstream.data.entities.Movie
-import com.google.jetstream.data.models.MovieCastResponseItem
-import com.google.jetstream.data.models.MovieCategoriesResponseItem
-import com.google.jetstream.data.models.MoviesResponseItem
-import com.google.jetstream.data.util.AssetsReader
+import com.vinko.viptv.data.entities.Movie
+import com.vinko.viptv.data.models.MovieCastResponseItem
+import com.vinko.viptv.data.models.MovieCategoriesResponseItem
+import com.vinko.viptv.data.models.MoviesResponseItem
+import com.vinko.viptv.data.util.AssetsReader
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.sync.Mutex

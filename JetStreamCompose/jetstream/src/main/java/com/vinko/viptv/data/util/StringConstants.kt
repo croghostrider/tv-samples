@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.data.util
+package com.vinko.viptv.data.util
 
 object StringConstants {
     object Movie {

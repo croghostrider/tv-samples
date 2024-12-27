@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.presentation.screens.favourites
+package com.vinko.viptv.presentation.screens.favourites
 
 import androidx.annotation.StringRes
 import androidx.compose.runtime.Immutable
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.google.jetstream.R
-import com.google.jetstream.data.entities.MovieList
-import com.google.jetstream.data.repositories.MovieRepository
+import com.vinko.viptv.R
+import com.vinko.viptv.data.entities.MovieList
+import com.vinko.viptv.data.repositories.MovieRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 import kotlinx.coroutines.flow.MutableStateFlow

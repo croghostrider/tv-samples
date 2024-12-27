@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.data.repositories
+package com.vinko.viptv.data.repositories
 
-import com.google.jetstream.data.entities.MovieCategoryDetails
-import com.google.jetstream.data.entities.MovieDetails
-import com.google.jetstream.data.entities.MovieList
-import com.google.jetstream.data.entities.MovieReviewsAndRatings
-import com.google.jetstream.data.entities.ThumbnailType
-import com.google.jetstream.data.util.StringConstants
-import com.google.jetstream.data.util.StringConstants.Movie.Reviewer.DefaultCount
-import com.google.jetstream.data.util.StringConstants.Movie.Reviewer.DefaultRating
-import com.google.jetstream.data.util.StringConstants.Movie.Reviewer.FreshTomatoes
-import com.google.jetstream.data.util.StringConstants.Movie.Reviewer.ReviewerName
+import com.vinko.viptv.data.entities.MovieCategoryDetails
+import com.vinko.viptv.data.entities.MovieDetails
+import com.vinko.viptv.data.entities.MovieList
+import com.vinko.viptv.data.entities.MovieReviewsAndRatings
+import com.vinko.viptv.data.entities.ThumbnailType
+import com.vinko.viptv.data.util.StringConstants
+import com.vinko.viptv.data.util.StringConstants.Movie.Reviewer.DefaultCount
+import com.vinko.viptv.data.util.StringConstants.Movie.Reviewer.DefaultRating
+import com.vinko.viptv.data.util.StringConstants.Movie.Reviewer.FreshTomatoes
+import com.vinko.viptv.data.util.StringConstants.Movie.Reviewer.ReviewerName
 import javax.inject.Inject
 import javax.inject.Singleton
 import kotlinx.coroutines.flow.Flow

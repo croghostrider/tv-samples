@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.presentation.screens.profile
+package com.vinko.viptv.presentation.screens.profile
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.focusable
@@ -32,7 +32,7 @@ import androidx.tv.material3.Button
 import androidx.tv.material3.ButtonDefaults
 import androidx.tv.material3.MaterialTheme
 import androidx.tv.material3.Text
-import com.google.jetstream.presentation.theme.JetStreamButtonShape
+import com.vinko.viptv.presentation.theme.JetStreamButtonShape
 
 @Composable
 fun AccountsSectionDialogButton(

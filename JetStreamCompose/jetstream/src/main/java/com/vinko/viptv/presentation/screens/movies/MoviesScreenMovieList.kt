@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.presentation.screens.movies
+package com.vinko.viptv.presentation.screens.movies
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.core.animateFloatAsState
@@ -50,10 +50,10 @@ import androidx.tv.material3.CompactCard
 import androidx.tv.material3.MaterialTheme
 import androidx.tv.material3.Text
 import coil.compose.AsyncImage
-import com.google.jetstream.data.entities.Movie
-import com.google.jetstream.data.util.StringConstants
-import com.google.jetstream.presentation.screens.dashboard.rememberChildPadding
-import com.google.jetstream.presentation.theme.JetStreamBorderWidth
+import com.vinko.viptv.data.entities.Movie
+import com.vinko.viptv.data.util.StringConstants
+import com.vinko.viptv.presentation.screens.dashboard.rememberChildPadding
+import com.vinko.viptv.presentation.theme.JetStreamBorderWidth
 
 @OptIn(ExperimentalComposeUiApi::class)
 @Composable

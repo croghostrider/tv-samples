@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.presentation.screens.profile
+package com.vinko.viptv.presentation.screens.profile
 
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.layout.padding
@@ -26,9 +26,9 @@ import androidx.compose.ui.unit.dp
 import androidx.tv.material3.ExperimentalTvMaterial3Api
 import androidx.tv.material3.MaterialTheme
 import androidx.tv.material3.Text
-import com.google.jetstream.R
-import com.google.jetstream.presentation.theme.JetStreamCardShape
-import com.google.jetstream.tvmaterial.StandardDialog
+import com.vinko.viptv.R
+import com.vinko.viptv.presentation.theme.JetStreamCardShape
+import com.vinko.viptv.tvmaterial.StandardDialog
 
 @OptIn(
     ExperimentalFoundationApi::class, ExperimentalComposeUiApi::class,

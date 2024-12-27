@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.presentation.screens.movies
+package com.vinko.viptv.presentation.screens.movies
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
@@ -42,11 +42,11 @@ import androidx.tv.material3.MaterialTheme
 import androidx.tv.material3.Surface
 import androidx.tv.material3.Text
 import androidx.tv.material3.surfaceColorAtElevation
-import com.google.jetstream.R
-import com.google.jetstream.data.entities.MovieReviewsAndRatings
-import com.google.jetstream.data.util.StringConstants
-import com.google.jetstream.presentation.screens.dashboard.rememberChildPadding
-import com.google.jetstream.presentation.theme.JetStreamCardShape
+import com.vinko.viptv.R
+import com.vinko.viptv.data.entities.MovieReviewsAndRatings
+import com.vinko.viptv.data.util.StringConstants
+import com.vinko.viptv.presentation.screens.dashboard.rememberChildPadding
+import com.vinko.viptv.presentation.theme.JetStreamCardShape
 
 @Composable
 fun MovieReviews(

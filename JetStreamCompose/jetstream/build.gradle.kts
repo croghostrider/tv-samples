@@ -28,12 +28,12 @@ kotlin {
 }
 
 android {
-    namespace = "com.google.jetstream"
+    namespace = "com.vinko.viptv"
     // Needed for latest androidx snapshot build
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.google.jetstream"
+        applicationId = "com.vinko.viptv"
         minSdk = 28
         targetSdk = 35
         versionCode = 1

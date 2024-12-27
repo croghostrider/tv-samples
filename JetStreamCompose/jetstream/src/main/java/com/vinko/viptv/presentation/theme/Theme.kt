@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.presentation.theme // ktlint-disable filename
+package com.vinko.viptv.presentation.theme // ktlint-disable filename
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.colorResource
 import androidx.tv.material3.MaterialTheme
 import androidx.tv.material3.darkColorScheme
-import com.google.jetstream.R
+import com.vinko.viptv.R
 
 private val darkColorScheme @Composable get() = darkColorScheme(
     primary = colorResource(R.color.primary),

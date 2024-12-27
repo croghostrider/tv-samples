@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.presentation.theme
+package com.vinko.viptv.presentation.theme
 
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.Font
@@ -23,7 +23,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextMotion
 import androidx.compose.ui.unit.sp
 import androidx.tv.material3.Typography
-import com.google.jetstream.R
+import com.vinko.viptv.R
 
 private val Inter = FontFamily(
     fonts = listOf(

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.presentation
+package com.vinko.viptv.presentation
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -26,11 +26,11 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-import com.google.jetstream.presentation.screens.Screens
-import com.google.jetstream.presentation.screens.categories.CategoryMovieListScreen
-import com.google.jetstream.presentation.screens.dashboard.DashboardScreen
-import com.google.jetstream.presentation.screens.movies.MovieDetailsScreen
-import com.google.jetstream.presentation.screens.videoPlayer.VideoPlayerScreen
+import com.vinko.viptv.presentation.screens.Screens
+import com.vinko.viptv.presentation.screens.categories.CategoryMovieListScreen
+import com.vinko.viptv.presentation.screens.dashboard.DashboardScreen
+import com.vinko.viptv.presentation.screens.movies.MovieDetailsScreen
+import com.vinko.viptv.presentation.screens.videoPlayer.VideoPlayerScreen
 
 @Composable
 fun App(

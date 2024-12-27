@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.presentation.screens.favourites
+package com.vinko.viptv.presentation.screens.favourites
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.BorderStroke
@@ -40,8 +40,8 @@ import androidx.tv.material3.Icon
 import androidx.tv.material3.MaterialTheme
 import androidx.tv.material3.ProvideTextStyle
 import androidx.tv.material3.Text
-import com.google.jetstream.data.util.StringConstants
-import com.google.jetstream.presentation.theme.JetStreamCardShape
+import com.vinko.viptv.data.util.StringConstants
+import com.vinko.viptv.presentation.theme.JetStreamCardShape
 
 @OptIn(ExperimentalTvMaterial3Api::class)
 @Composable

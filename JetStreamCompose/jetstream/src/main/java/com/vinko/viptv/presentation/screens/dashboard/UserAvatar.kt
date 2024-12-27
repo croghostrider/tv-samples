@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.presentation.screens.dashboard
+package com.vinko.viptv.presentation.screens.dashboard
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.layout.fillMaxSize
@@ -28,7 +28,7 @@ import androidx.tv.material3.Icon
 import androidx.tv.material3.MaterialTheme
 import androidx.tv.material3.SelectableSurfaceDefaults
 import androidx.tv.material3.Surface
-import com.google.jetstream.presentation.theme.JetStreamBorderWidth
+import com.vinko.viptv.presentation.theme.JetStreamBorderWidth
 
 @Composable
 fun UserAvatar(

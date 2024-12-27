@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.presentation.screens.search
+package com.vinko.viptv.presentation.screens.search
 
 import android.view.KeyEvent
 import androidx.compose.animation.animateColorAsState
@@ -58,12 +58,12 @@ import androidx.tv.material3.LocalContentColor
 import androidx.tv.material3.MaterialTheme
 import androidx.tv.material3.Surface
 import androidx.tv.material3.Text
-import com.google.jetstream.R
-import com.google.jetstream.data.entities.Movie
-import com.google.jetstream.data.entities.MovieList
-import com.google.jetstream.presentation.common.MoviesRow
-import com.google.jetstream.presentation.screens.dashboard.rememberChildPadding
-import com.google.jetstream.presentation.theme.JetStreamCardShape
+import com.vinko.viptv.R
+import com.vinko.viptv.data.entities.Movie
+import com.vinko.viptv.data.entities.MovieList
+import com.vinko.viptv.presentation.common.MoviesRow
+import com.vinko.viptv.presentation.screens.dashboard.rememberChildPadding
+import com.vinko.viptv.presentation.theme.JetStreamCardShape
 
 @Composable
 fun SearchScreen(

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.presentation.screens.favourites
+package com.vinko.viptv.presentation.screens.favourites
 
 import androidx.compose.animation.core.animateDpAsState
 import androidx.compose.foundation.layout.Column
@@ -31,9 +31,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.google.jetstream.data.entities.MovieList
-import com.google.jetstream.presentation.common.Loading
-import com.google.jetstream.presentation.screens.dashboard.rememberChildPadding
+import com.vinko.viptv.data.entities.MovieList
+import com.vinko.viptv.presentation.common.Loading
+import com.vinko.viptv.presentation.screens.dashboard.rememberChildPadding
 
 @Composable
 fun FavouritesScreen(

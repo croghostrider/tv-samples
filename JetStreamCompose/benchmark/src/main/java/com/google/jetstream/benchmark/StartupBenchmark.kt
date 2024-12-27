@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.benchmark
+package com.vinko.viptv.benchmark
 
 import androidx.benchmark.macro.BaselineProfileMode
 import androidx.benchmark.macro.CompilationMode
@@ -70,5 +70,5 @@ class StartupBenchmark {
         }
 }
 
-private const val JETSTREAM_PACKAGE_NAME = "com.google.jetstream"
+private const val JETSTREAM_PACKAGE_NAME = "com.vinko.viptv"
 private const val STARTUP_TEST_ITERATIONS = 5

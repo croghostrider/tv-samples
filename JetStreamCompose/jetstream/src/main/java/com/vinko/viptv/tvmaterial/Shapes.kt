@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.tvmaterial
+package com.vinko.viptv.tvmaterial
 
 import androidx.compose.foundation.shape.CornerBasedShape
 import androidx.compose.foundation.shape.CornerSize

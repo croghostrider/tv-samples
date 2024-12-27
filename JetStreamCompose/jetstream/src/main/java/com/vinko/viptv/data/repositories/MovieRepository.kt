@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.data.repositories
+package com.vinko.viptv.data.repositories
 
-import com.google.jetstream.data.entities.MovieCategoryDetails
-import com.google.jetstream.data.entities.MovieCategoryList
-import com.google.jetstream.data.entities.MovieDetails
-import com.google.jetstream.data.entities.MovieList
+import com.vinko.viptv.data.entities.MovieCategoryDetails
+import com.vinko.viptv.data.entities.MovieCategoryList
+import com.vinko.viptv.data.entities.MovieDetails
+import com.vinko.viptv.data.entities.MovieList
 import kotlinx.coroutines.flow.Flow
 
 interface MovieRepository {

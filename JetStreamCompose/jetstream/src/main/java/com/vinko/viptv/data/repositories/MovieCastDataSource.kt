@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.data.repositories
+package com.vinko.viptv.data.repositories
 
-import com.google.jetstream.data.entities.toMovieCast
-import com.google.jetstream.data.util.AssetsReader
-import com.google.jetstream.data.util.StringConstants
+import com.vinko.viptv.data.entities.toMovieCast
+import com.vinko.viptv.data.util.AssetsReader
+import com.vinko.viptv.data.util.StringConstants
 import javax.inject.Inject
 
 class MovieCastDataSource @Inject constructor(

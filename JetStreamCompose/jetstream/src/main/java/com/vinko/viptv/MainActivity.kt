@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.jetstream
+package com.vinko.viptv
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -27,8 +27,8 @@ import androidx.compose.ui.Modifier
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.tv.material3.LocalContentColor
 import androidx.tv.material3.MaterialTheme
-import com.google.jetstream.presentation.App
-import com.google.jetstream.presentation.theme.JetStreamTheme
+import com.vinko.viptv.presentation.App
+import com.vinko.viptv.presentation.theme.JetStreamTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.google.jetstream
+package com.vinko.viptv
 
 import android.app.Application
-import com.google.jetstream.data.repositories.MovieRepository
-import com.google.jetstream.data.repositories.MovieRepositoryImpl
+import com.vinko.viptv.data.repositories.MovieRepository
+import com.vinko.viptv.data.repositories.MovieRepositoryImpl
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn

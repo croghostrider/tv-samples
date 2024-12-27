@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.presentation.screens.profile
+package com.vinko.viptv.presentation.screens.profile
 
 import androidx.annotation.FloatRange
 import androidx.compose.foundation.background
@@ -66,9 +66,9 @@ import androidx.tv.material3.ListItem
 import androidx.tv.material3.ListItemDefaults
 import androidx.tv.material3.MaterialTheme
 import androidx.tv.material3.Text
-import com.google.jetstream.R
-import com.google.jetstream.presentation.screens.dashboard.rememberChildPadding
-import com.google.jetstream.presentation.theme.JetStreamTheme
+import com.vinko.viptv.R
+import com.vinko.viptv.presentation.screens.dashboard.rememberChildPadding
+import com.vinko.viptv.presentation.theme.JetStreamTheme
 
 @OptIn(ExperimentalComposeUiApi::class)
 @Composable

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.data.entities
+package com.vinko.viptv.data.entities
 
-import com.google.jetstream.data.models.MovieCategoriesResponseItem
+import com.vinko.viptv.data.models.MovieCategoriesResponseItem
 
 data class MovieCategory(
     val id: String,

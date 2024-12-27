@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.presentation.screens.favourites
+package com.vinko.viptv.presentation.screens.favourites
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.PaddingValues
@@ -27,10 +27,10 @@ import androidx.compose.foundation.lazy.grid.items
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.google.jetstream.data.entities.MovieList
-import com.google.jetstream.presentation.common.MovieCard
-import com.google.jetstream.presentation.common.PosterImage
-import com.google.jetstream.presentation.theme.JetStreamBottomListPadding
+import com.vinko.viptv.data.entities.MovieList
+import com.vinko.viptv.presentation.common.MovieCard
+import com.vinko.viptv.presentation.common.PosterImage
+import com.vinko.viptv.presentation.theme.JetStreamBottomListPadding
 
 @Composable
 fun FilteredMoviesGrid(

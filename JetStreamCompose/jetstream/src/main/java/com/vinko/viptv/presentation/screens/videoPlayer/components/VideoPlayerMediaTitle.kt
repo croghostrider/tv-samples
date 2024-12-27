@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.presentation.screens.videoPlayer.components
+package com.vinko.viptv.presentation.screens.videoPlayer.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
@@ -35,8 +35,8 @@ import androidx.compose.ui.unit.dp
 import androidx.tv.material3.MaterialTheme
 import androidx.tv.material3.Surface
 import androidx.tv.material3.Text
-import com.google.jetstream.R
-import com.google.jetstream.presentation.theme.JetStreamTheme
+import com.vinko.viptv.R
+import com.vinko.viptv.presentation.theme.JetStreamTheme
 
 enum class VideoPlayerMediaTitleType { AD, LIVE, DEFAULT }
 

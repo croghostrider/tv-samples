@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.presentation.common
+package com.vinko.viptv.presentation.common
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.core.animateFloatAsState
@@ -55,9 +55,9 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.tv.material3.MaterialTheme
 import androidx.tv.material3.Text
-import com.google.jetstream.data.entities.Movie
-import com.google.jetstream.data.entities.MovieList
-import com.google.jetstream.presentation.screens.dashboard.rememberChildPadding
+import com.vinko.viptv.data.entities.Movie
+import com.vinko.viptv.data.entities.MovieList
+import com.vinko.viptv.presentation.screens.dashboard.rememberChildPadding
 
 enum class ItemDirection(val aspectRatio: Float) {
     Vertical(10.5f / 16f),

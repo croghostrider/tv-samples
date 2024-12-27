@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.benchmark
+package com.vinko.viptv.benchmark
 
 import androidx.benchmark.macro.junit4.BaselineProfileRule
 import androidx.test.uiautomator.By
@@ -186,7 +186,7 @@ class BaselineProfileGenerator {
     }
 }
 
-private const val JETSTREAM_PACKAGE_NAME = "com.google.jetstream"
+private const val JETSTREAM_PACKAGE_NAME = "com.vinko.viptv"
 
 private const val INITIAL_WAIT_TIMEOUT = 2000L
 private const val WAIT_TIMEOUT = 1000L

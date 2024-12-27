@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.presentation.screens.profile
+package com.vinko.viptv.presentation.screens.profile
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Info

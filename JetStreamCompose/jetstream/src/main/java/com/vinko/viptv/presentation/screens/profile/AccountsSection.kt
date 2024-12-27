@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.presentation.screens.profile
+package com.vinko.viptv.presentation.screens.profile
 
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
@@ -31,8 +31,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.unit.dp
-import com.google.jetstream.data.util.StringConstants
-import com.google.jetstream.presentation.screens.dashboard.rememberChildPadding
+import com.vinko.viptv.data.util.StringConstants
+import com.vinko.viptv.presentation.screens.dashboard.rememberChildPadding
 
 @Immutable
 data class AccountsSectionData(

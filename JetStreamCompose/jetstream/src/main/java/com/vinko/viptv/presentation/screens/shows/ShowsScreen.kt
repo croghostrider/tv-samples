@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.presentation.screens.shows
+package com.vinko.viptv.presentation.screens.shows
 
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
@@ -30,13 +30,13 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.google.jetstream.data.entities.Movie
-import com.google.jetstream.data.entities.MovieList
-import com.google.jetstream.data.util.StringConstants
-import com.google.jetstream.presentation.common.Loading
-import com.google.jetstream.presentation.common.MoviesRow
-import com.google.jetstream.presentation.screens.dashboard.rememberChildPadding
-import com.google.jetstream.presentation.screens.movies.MoviesScreenMovieList
+import com.vinko.viptv.data.entities.Movie
+import com.vinko.viptv.data.entities.MovieList
+import com.vinko.viptv.data.util.StringConstants
+import com.vinko.viptv.presentation.common.Loading
+import com.vinko.viptv.presentation.common.MoviesRow
+import com.vinko.viptv.presentation.screens.dashboard.rememberChildPadding
+import com.vinko.viptv.presentation.screens.movies.MoviesScreenMovieList
 
 @Composable
 fun ShowsScreen(

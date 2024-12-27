@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.presentation.screens.movies
+package com.vinko.viptv.presentation.screens.movies
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
@@ -42,12 +42,12 @@ import androidx.tv.material3.CardDefaults
 import androidx.tv.material3.ClassicCard
 import androidx.tv.material3.MaterialTheme
 import androidx.tv.material3.Text
-import com.google.jetstream.R
-import com.google.jetstream.data.entities.MovieCast
-import com.google.jetstream.presentation.screens.dashboard.rememberChildPadding
-import com.google.jetstream.presentation.theme.JetStreamBorderWidth
-import com.google.jetstream.presentation.theme.JetStreamCardShape
-import com.google.jetstream.presentation.utils.ourColors
+import com.vinko.viptv.R
+import com.vinko.viptv.data.entities.MovieCast
+import com.vinko.viptv.presentation.screens.dashboard.rememberChildPadding
+import com.vinko.viptv.presentation.theme.JetStreamBorderWidth
+import com.vinko.viptv.presentation.theme.JetStreamCardShape
+import com.vinko.viptv.presentation.utils.ourColors
 
 @OptIn(ExperimentalComposeUiApi::class)
 @Composable

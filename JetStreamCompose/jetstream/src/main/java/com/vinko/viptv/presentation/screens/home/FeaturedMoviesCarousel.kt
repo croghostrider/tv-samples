@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.presentation.screens.home
+package com.vinko.viptv.presentation.screens.home
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.core.tween
@@ -66,13 +66,13 @@ import androidx.tv.material3.MaterialTheme
 import androidx.tv.material3.ShapeDefaults
 import androidx.tv.material3.Text
 import coil.compose.AsyncImage
-import com.google.jetstream.R
-import com.google.jetstream.data.entities.Movie
-import com.google.jetstream.data.util.StringConstants
-import com.google.jetstream.presentation.theme.JetStreamBorderWidth
-import com.google.jetstream.presentation.theme.JetStreamButtonShape
-import com.google.jetstream.presentation.utils.Padding
-import com.google.jetstream.presentation.utils.handleDPadKeyEvents
+import com.vinko.viptv.R
+import com.vinko.viptv.data.entities.Movie
+import com.vinko.viptv.data.util.StringConstants
+import com.vinko.viptv.presentation.theme.JetStreamBorderWidth
+import com.vinko.viptv.presentation.theme.JetStreamButtonShape
+import com.vinko.viptv.presentation.utils.Padding
+import com.vinko.viptv.presentation.utils.handleDPadKeyEvents
 
 @OptIn(ExperimentalTvMaterial3Api::class)
 val CarouselSaver = Saver<CarouselState, Int>(

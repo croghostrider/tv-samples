@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.presentation.screens.categories
+package com.vinko.viptv.presentation.screens.categories
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.core.animateFloatAsState
@@ -46,11 +46,11 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.tv.material3.MaterialTheme
 import androidx.tv.material3.Text
-import com.google.jetstream.data.entities.MovieCategoryList
-import com.google.jetstream.presentation.common.Loading
-import com.google.jetstream.presentation.common.MovieCard
-import com.google.jetstream.presentation.screens.dashboard.rememberChildPadding
-import com.google.jetstream.presentation.utils.GradientBg
+import com.vinko.viptv.data.entities.MovieCategoryList
+import com.vinko.viptv.presentation.common.Loading
+import com.vinko.viptv.presentation.common.MovieCard
+import com.vinko.viptv.presentation.screens.dashboard.rememberChildPadding
+import com.vinko.viptv.presentation.utils.GradientBg
 
 @Composable
 fun CategoriesScreen(

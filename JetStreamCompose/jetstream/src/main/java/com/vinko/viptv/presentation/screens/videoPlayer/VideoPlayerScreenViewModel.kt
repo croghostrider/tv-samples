@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.presentation.screens.videoPlayer
+package com.vinko.viptv.presentation.screens.videoPlayer
 
 import androidx.compose.runtime.Immutable
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.google.jetstream.data.entities.MovieDetails
-import com.google.jetstream.data.repositories.MovieRepository
+import com.vinko.viptv.data.entities.MovieDetails
+import com.vinko.viptv.data.repositories.MovieRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 import kotlinx.coroutines.flow.SharingStarted

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.presentation.screens.movies
+package com.vinko.viptv.presentation.screens.movies
 
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.layout.Box
@@ -53,11 +53,11 @@ import androidx.tv.material3.MaterialTheme
 import androidx.tv.material3.Text
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
-import com.google.jetstream.R
-import com.google.jetstream.data.entities.MovieDetails
-import com.google.jetstream.data.util.StringConstants
-import com.google.jetstream.presentation.screens.dashboard.rememberChildPadding
-import com.google.jetstream.presentation.theme.JetStreamButtonShape
+import com.vinko.viptv.R
+import com.vinko.viptv.data.entities.MovieDetails
+import com.vinko.viptv.data.util.StringConstants
+import com.vinko.viptv.presentation.screens.dashboard.rememberChildPadding
+import com.vinko.viptv.presentation.theme.JetStreamButtonShape
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalFoundationApi::class)

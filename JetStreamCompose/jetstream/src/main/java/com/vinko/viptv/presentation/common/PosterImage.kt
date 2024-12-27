@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.presentation.common
+package com.vinko.viptv.presentation.common
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -22,8 +22,8 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
-import com.google.jetstream.data.entities.Movie
-import com.google.jetstream.data.util.StringConstants
+import com.vinko.viptv.data.entities.Movie
+import com.vinko.viptv.data.util.StringConstants
 
 @Composable
 fun PosterImage(

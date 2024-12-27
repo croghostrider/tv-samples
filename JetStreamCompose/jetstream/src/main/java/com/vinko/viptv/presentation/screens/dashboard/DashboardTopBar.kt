@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.presentation.screens.dashboard
+package com.vinko.viptv.presentation.screens.dashboard
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -54,13 +54,13 @@ import androidx.tv.material3.MaterialTheme
 import androidx.tv.material3.Tab
 import androidx.tv.material3.TabRow
 import androidx.tv.material3.Text
-import com.google.jetstream.R
-import com.google.jetstream.data.util.StringConstants
-import com.google.jetstream.presentation.screens.Screens
-import com.google.jetstream.presentation.theme.IconSize
-import com.google.jetstream.presentation.theme.JetStreamCardShape
-import com.google.jetstream.presentation.theme.LexendExa
-import com.google.jetstream.presentation.utils.occupyScreenSize
+import com.vinko.viptv.R
+import com.vinko.viptv.data.util.StringConstants
+import com.vinko.viptv.presentation.screens.Screens
+import com.vinko.viptv.presentation.theme.IconSize
+import com.vinko.viptv.presentation.theme.JetStreamCardShape
+import com.vinko.viptv.presentation.theme.LexendExa
+import com.vinko.viptv.presentation.utils.occupyScreenSize
 
 val TopBarTabs = Screens.entries.toList().filter { it.isTabItem }
 

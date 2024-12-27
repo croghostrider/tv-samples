@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.presentation.screens.profile
+package com.vinko.viptv.presentation.screens.profile
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
@@ -30,9 +30,9 @@ import androidx.tv.material3.ListItemDefaults
 import androidx.tv.material3.MaterialTheme
 import androidx.tv.material3.Text
 import androidx.tv.material3.surfaceColorAtElevation
-import com.google.jetstream.R
-import com.google.jetstream.data.util.StringConstants
-import com.google.jetstream.presentation.theme.JetStreamCardShape
+import com.vinko.viptv.R
+import com.vinko.viptv.data.util.StringConstants
+import com.vinko.viptv.presentation.theme.JetStreamCardShape
 
 @Composable
 fun LanguageSection(

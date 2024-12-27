@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.presentation.screens.home
+package com.vinko.viptv.presentation.screens.home
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.Crossfade
@@ -48,14 +48,14 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.tv.material3.MaterialTheme
 import androidx.tv.material3.Text
-import com.google.jetstream.R
-import com.google.jetstream.data.entities.Movie
-import com.google.jetstream.data.entities.MovieList
-import com.google.jetstream.presentation.common.ImmersiveListMoviesRow
-import com.google.jetstream.presentation.common.ItemDirection
-import com.google.jetstream.presentation.common.PosterImage
-import com.google.jetstream.presentation.screens.dashboard.rememberChildPadding
-import com.google.jetstream.presentation.utils.bringIntoViewIfChildrenAreFocused
+import com.vinko.viptv.R
+import com.vinko.viptv.data.entities.Movie
+import com.vinko.viptv.data.entities.MovieList
+import com.vinko.viptv.presentation.common.ImmersiveListMoviesRow
+import com.vinko.viptv.presentation.common.ItemDirection
+import com.vinko.viptv.presentation.common.PosterImage
+import com.vinko.viptv.presentation.screens.dashboard.rememberChildPadding
+import com.vinko.viptv.presentation.utils.bringIntoViewIfChildrenAreFocused
 
 @Composable
 fun Top10MoviesList(

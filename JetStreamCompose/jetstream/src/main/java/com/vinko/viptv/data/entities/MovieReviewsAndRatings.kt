@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.data.entities
+package com.vinko.viptv.data.entities
 
 data class MovieReviewsAndRatings(
     val reviewerName: String,

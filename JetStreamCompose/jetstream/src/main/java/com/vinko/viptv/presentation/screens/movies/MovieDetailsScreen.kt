@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.presentation.screens.movies
+package com.vinko.viptv.presentation.screens.movies
 
 import androidx.activity.compose.BackHandler
 import androidx.compose.animation.animateContentSize
@@ -38,14 +38,14 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.tv.material3.MaterialTheme
-import com.google.jetstream.R
-import com.google.jetstream.data.entities.Movie
-import com.google.jetstream.data.entities.MovieDetails
-import com.google.jetstream.data.util.StringConstants
-import com.google.jetstream.presentation.common.Error
-import com.google.jetstream.presentation.common.Loading
-import com.google.jetstream.presentation.common.MoviesRow
-import com.google.jetstream.presentation.screens.dashboard.rememberChildPadding
+import com.vinko.viptv.R
+import com.vinko.viptv.data.entities.Movie
+import com.vinko.viptv.data.entities.MovieDetails
+import com.vinko.viptv.data.util.StringConstants
+import com.vinko.viptv.presentation.common.Error
+import com.vinko.viptv.presentation.common.Loading
+import com.vinko.viptv.presentation.common.MoviesRow
+import com.vinko.viptv.presentation.screens.dashboard.rememberChildPadding
 
 object MovieDetailsScreen {
     const val MovieIdBundleKey = "movieId"

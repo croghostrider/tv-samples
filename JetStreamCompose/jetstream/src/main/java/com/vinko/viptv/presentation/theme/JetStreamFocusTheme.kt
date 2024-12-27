@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.presentation.theme
+package com.vinko.viptv.presentation.theme
 
 import androidx.compose.ui.unit.dp
 import androidx.tv.material3.ShapeDefaults

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.google.jetstream.data.entities
+package com.vinko.viptv.data.entities
 
-import com.google.jetstream.data.models.MovieCastResponseItem
+import com.vinko.viptv.data.models.MovieCastResponseItem
 
 data class MovieCast(
     val id: String,
