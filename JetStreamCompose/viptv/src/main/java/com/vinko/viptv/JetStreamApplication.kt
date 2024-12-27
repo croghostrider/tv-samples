@@ -26,7 +26,7 @@ import dagger.hilt.android.HiltAndroidApp
 import dagger.hilt.components.SingletonComponent
 
 @HiltAndroidApp
-class JetStreamApplication : Application()
+class VIPTVApplication : Application()
 
 @InstallIn(SingletonComponent::class)
 @Module

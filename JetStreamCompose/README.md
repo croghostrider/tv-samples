@@ -15,7 +15,7 @@ project from Android Studio following the steps
 🧬 Samples
 ------------
 
-### JetStream
+### VIPTV
 
 A sample media streaming app that demonstrates the use of TV Compose with a typical Material app and
 real-world architecture.
@@ -40,17 +40,17 @@ real-world architecture.
 
 ## Screenshots
 
-![List of screenshots from the JetStream sample application](./Screenshots.png)
+![List of screenshots from the VIPTV sample application](./Screenshots.png)
 
 ## Performance
 
 ### Benchmarks
 
-The `benchmarks` module contains sample tests written using [`Macrobenchmark`](https://developer.android.com/studio/profile/macrobenchmark) library. It also contains the test to generate the baseline profile for JetStream app.
+The `benchmarks` module contains sample tests written using [`Macrobenchmark`](https://developer.android.com/studio/profile/macrobenchmark) library. It also contains the test to generate the baseline profile for VIPTV app.
 
 ### Baseline profiles
 
-The baseline profile for this app is located at [`jetstream/src/main/baseline-prof.txt`](jetstream/src/main/baseline-prof.txt). It contains rules that enable AOT compilation of the critical user path taken during app launch. To learn more about baseline profiles, read [here](https://developer.android.com/studio/profile/baselineprofiles).
+The baseline profile for this app is located at [`viptv/src/main/baseline-prof.txt`](viptv/src/main/baseline-prof.txt). It contains rules that enable AOT compilation of the critical user path taken during app launch. To learn more about baseline profiles, read [here](https://developer.android.com/studio/profile/baselineprofiles).
 
 For more details on how to generate & apply baseline profiles, check [this document](baseline-profiles.md).
 

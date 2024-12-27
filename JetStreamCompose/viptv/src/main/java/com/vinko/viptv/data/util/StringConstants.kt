@@ -69,7 +69,7 @@ object StringConstants {
         fun reviewCount(count: String) = "$count reviews"
 
         object Placeholders {
-            const val AboutSectionTitle = "About JetStream"
+            const val AboutSectionTitle = "About VIPTV"
             const val AboutSectionDescription = "Welcome to Jetstream! We are a new and" +
                 " exciting streaming platform that offers a vast selection of movies," +
                 " TV shows, and original content for you to enjoy. Our team is dedicated" +
@@ -105,7 +105,7 @@ object StringConstants {
             const val SubtitlesSectionLanguageItem = "Subtitles Language"
             const val SubtitlesSectionLanguageValue = "English"
             const val AccountsSelectionSwitchAccountsTitle = "Switch accounts"
-            const val AccountsSelectionSwitchAccountsEmail = "jack@jetstream.com"
+            const val AccountsSelectionSwitchAccountsEmail = "jack@viptv.com"
             const val AccountsSelectionLogOut = "Log out"
             const val AccountsSelectionChangePasswordTitle = "Change password"
             const val AccountsSelectionChangePasswordValue = "••••••••••••••"
@@ -117,7 +117,7 @@ object StringConstants {
             const val HelpAndSupportSectionFAQItem = "FAQ's"
             const val HelpAndSupportSectionPrivacyItem = "Privacy Policy"
             const val HelpAndSupportSectionContactItem = "Contact us on"
-            const val HelpAndSupportSectionContactValue = "support@jetstream.com"
+            const val HelpAndSupportSectionContactValue = "support@viptv.com"
         }
 
         const val VideoPlayerControlPlaylistButton = "Playlist Button"

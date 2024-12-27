@@ -28,6 +28,6 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "JetStream"
-include(":jetstream")
+rootProject.name = "VIPTV"
+include(":viptv")
 include(":benchmark")
