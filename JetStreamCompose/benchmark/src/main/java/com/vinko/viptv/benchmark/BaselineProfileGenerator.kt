@@ -28,7 +28,7 @@ class BaselineProfileGenerator {
 
     @Test
     fun startup() = baselineProfileRule.collect(
-        packageName = JETSTREAM_PACKAGE_NAME
+        packageName = VIPTV_PACKAGE_NAME
     ) {
         startActivityAndWait()
         device.waitForIdle()
@@ -186,7 +186,7 @@ class BaselineProfileGenerator {
     }
 }
 
-private const val JETSTREAM_PACKAGE_NAME = "com.vinko.viptv"
+private const val VIPTV_PACKAGE_NAME = "com.vinko.viptv"
 
 private const val INITIAL_WAIT_TIMEOUT = 2000L
 private const val WAIT_TIMEOUT = 1000L

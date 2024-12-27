@@ -59,7 +59,7 @@ class StartupBenchmark {
 
     private fun startup(compilationMode: CompilationMode) =
         benchmarkRule.measureRepeated(
-            packageName = JETSTREAM_PACKAGE_NAME,
+            packageName = VIPTV_PACKAGE_NAME,
             metrics = listOf(StartupTimingMetric()),
             compilationMode = compilationMode,
             iterations = STARTUP_TEST_ITERATIONS,
@@ -70,5 +70,5 @@ class StartupBenchmark {
         }
 }
 
-private const val JETSTREAM_PACKAGE_NAME = "com.vinko.viptv"
+private const val VIPTV_PACKAGE_NAME = "com.vinko.viptv"
 private const val STARTUP_TEST_ITERATIONS = 5
