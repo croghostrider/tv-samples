@@ -763,7 +763,6 @@ private object Elevation {
     val Level5 = 12.0.dp
 }
 
-@OptIn(ExperimentalTvMaterial3Api::class)
 private fun ColorScheme.applyTonalElevation(backgroundColor: Color, elevation: Dp): Color {
     return if (backgroundColor == surface) {
         surfaceColorAtElevation(elevation)

@@ -24,7 +24,6 @@ import androidx.compose.material.icons.automirrored.filled.ArrowForwardIos
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import androidx.tv.material3.ExperimentalTvMaterial3Api
 import androidx.tv.material3.Icon
 import androidx.tv.material3.ListItem
 import androidx.tv.material3.ListItemDefaults
@@ -34,7 +33,6 @@ import androidx.tv.material3.surfaceColorAtElevation
 import com.vinko.viptv.data.util.StringConstants
 import com.vinko.viptv.presentation.theme.JetStreamCardShape
 
-@OptIn(ExperimentalTvMaterial3Api::class)
 @Composable
 fun HelpAndSupportSection() {
     with(StringConstants.Composable.Placeholders) {
